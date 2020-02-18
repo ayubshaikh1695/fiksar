@@ -1,0 +1,32 @@
+.hero-col {
+  background-image: linear-gradient(221deg, #fcfaf7, #f8f2ec);
+}
+
+.hero-img {
+  max-width: 720px;
+  width: 95%;
+  float: right;
+}
+
+// Extra Small devices (landscape phones, 568px and up)
+@media (min-width: 568px) {
+  .hero-img {
+    width: 50%;
+  }
+}
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+// }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+// }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }
