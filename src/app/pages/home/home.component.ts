@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  heroImagePath = '../../../assets/images/kari-shea-207221.png';
 
   constructor() { }
 
