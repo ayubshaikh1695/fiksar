@@ -11,6 +11,6 @@ import { SearchComponent } from './search/search.component';
   imports: [
     CommonModule
   ],
-  exports: [FiksarLogoComponent, NavsComponent]
+  exports: [FiksarLogoComponent, NavsComponent, SearchComponent]
 })
 export class ComponentsModule { }
