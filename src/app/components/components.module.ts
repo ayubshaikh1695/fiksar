@@ -5,14 +5,15 @@ import { NavsComponent } from './navs/navs.component';
 import { SearchComponent } from './search/search.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
+import { SearchChipsComponent } from './search-chips/search-chips.component';
 
 
 
 @NgModule({
-  declarations: [FiksarLogoComponent, NavsComponent, SearchComponent, NavbarComponent, HeaderComponent],
+  declarations: [FiksarLogoComponent, NavsComponent, SearchComponent, NavbarComponent, HeaderComponent, SearchChipsComponent],
   imports: [
     CommonModule
   ],
-  exports: [FiksarLogoComponent, NavsComponent, SearchComponent, NavbarComponent, HeaderComponent]
+  exports: [FiksarLogoComponent, NavsComponent, SearchComponent, NavbarComponent, HeaderComponent, SearchChipsComponent]
 })
 export class ComponentsModule { }
