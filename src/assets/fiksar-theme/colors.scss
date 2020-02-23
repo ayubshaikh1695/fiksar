@@ -1,9 +1,13 @@
 @import "./variables.scss";
 
 .fik-blue-cl {
-  color: $fiksarBlue;
+  color: $fiksarBlue !important;
 }
 
 .fik-drk-bg {
-  background-color: $darkSlateGray;
+  background-color: $darkSlateGray !important;
+}
+
+.fik-muted-cl {
+  color: $fikMuted !important;
 }
