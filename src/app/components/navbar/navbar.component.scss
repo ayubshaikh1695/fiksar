@@ -1,0 +1,23 @@
+.main-navbar-inner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 5%;
+}
+
+.fiksar-logo {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .main-navbar-inner {
+    justify-content: space-between;
+    background-color: transparent !important;
+    padding: 0 5%;
+  }
+
+  .fiksar-logo {
+    display: initial;
+  }
+}
