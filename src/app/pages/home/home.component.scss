@@ -24,9 +24,10 @@
 .hero-content-grid {
   position: relative;
   max-width: 1440px;
-  width: 90%;
+  width: 100%;
   padding-top: 8rem;
-  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
   display: grid;
   grid-template-columns: 100%;
 }
@@ -43,14 +44,14 @@
 }
 
 // Media queries
-@media (min-width: 568px) {
+@media (min-width: 576px) {
   .hero-image {
-    width: 50%;
+    width: 70%;
   }
 
   .hero-content-grid {
-    padding-top: 7rem;
-    grid-template-columns: 62%;
+    padding-top: 10rem;
+    grid-template-columns: 60%;
   }
 
   .hero-label {
@@ -58,15 +59,15 @@
   }
 
   .search-wrapper {
-    width: 92%;
     margin: initial;
   }
 }
 
-// @media (min-width: 576px) {
-// }
-
 @media (min-width: 768px) {
+  .hero-image {
+    width: 60%;
+  }
+
   .hero-content-grid {
     padding-top: 9rem;
   }
