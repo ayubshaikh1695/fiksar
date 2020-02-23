@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-chips.component.scss']
 })
 export class SearchChipsComponent implements OnInit {
+  chipsList = ['House Cleaning', 'Painting', 'Photography', 'Personal Training'];
 
   constructor() { }
 
