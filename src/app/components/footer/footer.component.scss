@@ -1,0 +1,53 @@
+.footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  z-index: 2000000;
+  width: 100%;
+  min-height: 4rem;
+  padding: 0.25rem 1.5%;
+  background-color: #ffffff;
+}
+
+.nav-btn {
+  background-color: #ffffff !important;
+  border: none;
+  width: 100%;
+  border-radius: 0;
+  margin-right: 0.5rem;
+
+  &:last-of-type {
+    margin-right: 0 !important;
+  }
+}
+
+.btn-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.btn-label {
+  vertical-align: middle;
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .btn-label {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-img {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-img {
+    margin-right: 1.4rem;
+  }
+
+  .btn-label {
+    display: initial;
+  }
+}
