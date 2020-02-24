@@ -1,4 +1,4 @@
-.main-navbar-inner {
+.main-navbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -11,7 +11,7 @@
 }
 
 @media (min-width: 576px) {
-  .main-navbar-inner {
+  .main-navbar {
     justify-content: space-between;
     background-color: transparent !important;
     padding: 0 5%;

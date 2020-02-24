@@ -1,0 +1,17 @@
+@import "../../../assets/fiksar-theme/variables.scss";
+
+a:link {
+  color: $fiksarMutedDark;
+}
+
+a:visited {
+  color: $fiksarMutedDark;
+}
+
+a:hover {
+  color: $fiksarBlue;
+}
+
+a:active {
+  color: $fiksarBlue;
+}

@@ -1,19 +1,19 @@
 <app-header>
   <app-navbar></app-navbar>
 </app-header>
-<section class="hero-block">
-  <div class="hero-background">
-    <img class="hero-image" [src]="heroImagePath" />
+<section>
+  <div class="hero-bg">
+    <img class="hero-img" [src]="heroImagePath" />
   </div>
-  <div class="hero-content-grid">
-    <div class="grid-item">
-      <div class="hero-label mb-5">
-        <h1>Find Reliable & Verified<br /> Home Service Providers<span class="fik-blue-cl">.</span></h1>
+  <div class="content-grid">
+    <div>
+      <div class="label mb-5">
+        <h1>Find Reliable & Verified<br />Home Service Providers<span class="fik-blue-cl">.</span></h1>
       </div>
-      <div class="search-wrapper mb-4">
+      <div class="content-max mb-4">
         <app-search [placeholder]="'What service you need'" [buttonLabel]="'Find Service'"></app-search>
       </div>
-      <div class="search-chips-wrapper">
+      <div class="content-max">
         <app-search-chips></app-search-chips>
       </div>
     </div>
